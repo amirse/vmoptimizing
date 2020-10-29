@@ -8,6 +8,6 @@
 3. Enable 1G hugepages
   * add ```default_hugepagesz=1G hugepagesz=1G hugepages=X``` to grub.cfg. X = total_ram_in_gb-32
 4. Configure KVM machines to use hugepages
-  * add <memoryBacking> <hugepages/> </memoryBacking> to vm's XML
+  * add ```<memoryBacking> <hugepages/> </memoryBacking>``` to vm's XML
   
 
